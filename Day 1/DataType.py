@@ -24,6 +24,7 @@ int #integer for numbers 1,2,3,4
 float #float for decimal numbers eg. 0.0 0.5
 str #string for characters like "hello there"
 
+
 """
 
 
@@ -37,7 +38,9 @@ b = 10
 print("a is "+str(a)+" and b is "+str(b))  # traditional method
 print("a is {0} and b is {1}".format(a, b))  # string formatting
 print(f'a is {a} and b is {b}')  # f string method
+
 # a is 5 and b is 10
+
 
 # float
 """
