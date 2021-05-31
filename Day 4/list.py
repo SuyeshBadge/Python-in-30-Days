@@ -44,7 +44,7 @@ l3 = list2.clear()
 list2 = list1.copy()
 
 list2.append(5)
-print(list1)
+# print(list1)
 
 c = list1.count(22)
 
@@ -54,4 +54,4 @@ himanshu = ['h', 'i', 'm']
 m = himanshu.extend(harshal)
 
 
-
+print('c' not in harshal)
